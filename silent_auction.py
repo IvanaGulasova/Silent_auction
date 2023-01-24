@@ -46,8 +46,8 @@ while auction_run:
 
 max = 0
 winner = ""
-for slovnik in people:
-    for key, value in slovnik.items():
+for dict in people:
+    for key, value in dict.items():
         if int(value) > max:
             max = int(value)
             winner = key
